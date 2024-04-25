@@ -1,0 +1,29 @@
+{
+  "collectionName": "components_components_contents",
+  "info": {
+    "displayName": "content",
+    "icon": "filter"
+  },
+  "options": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "blocks"
+    },
+    "Image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "Disabled": {
+      "type": "boolean"
+    }
+  }
+}
